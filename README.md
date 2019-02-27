@@ -32,3 +32,9 @@ confluent destroy
 * Create docker image, push to docker hub
 * Install minikube
 * Create deployment using docker hub image.
+
+## Spring Project run
+* application.yml kafka bootstrap adress kafka:29092
+* ./gradlew assemble docker
+* docker run onurakdemir/mlproducer
+ 
