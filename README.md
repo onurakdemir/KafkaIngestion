@@ -26,7 +26,7 @@ confluent destroy
 ## Development Steps
 * Create Spring Boot project(https://start.spring.io/)
 * Install docker compose
-* Start confluent.io docker images with KAFKA_LISTENERS updated
+* Start confluent.io docker images with KAFKA_LISTENERS updated or kafka-single-node example
 * Create docker image, push to docker hub
 * Install minikube
 * Create deployment using docker hub image.
